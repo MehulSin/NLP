@@ -1,0 +1,32 @@
+Group details-
+   1. Mehul Singh -A20413883
+   2. Kavyashree Shankar -A20381191
+
+Evaluate the parser in its current form:
+What sorts of sentences can it parse?
+What types of sentences will it fail to parse?
+What improvements to the grammar or parser are required to properly parse common failed sentences?
+
+
+1.1 . Sentences that are parsed:
+      -john lives in chicago
+      -these aliens do drive
+      -john steals jetcar
+
+1.2.Sentences that fail to be parsed
+      -jetcar is on planet earth
+      -she did it
+      -the watermelon is from chicago
+      -Is this jetcar
+      -This is planet earth
+
+1.3.The grammer can be improved by adding more rules to parse above failed sentences ie., after adding the rule vbar->faux all the three sentences are parsing succesfully.
+    We have also added new terminals and sentences formed from those terminals are also getting parsed.
+    For fourth sentence we added 2 grammer,then it started working.
+    For fifth sentence we addes 1 grammer,then it started working.
+    If the sentence can be parsed in multiple ways ,the best parsed tree is taken into consideration along with its probability.
+
+
+
+
+

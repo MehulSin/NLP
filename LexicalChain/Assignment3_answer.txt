@@ -1,0 +1,15 @@
+Assignment 3
+
+Mehul Singh(A20413883)
+Kavyashree Shankar(A20381191)
+
+Ans 2:We have implemented code for synonym,antonym and hypernomy.We can implement code for meronym and hyponym relationship.
+      We can add synset for noun,pronoun,adjective and adverb.We can form lexical chain based on noun and verbal phrase.
+
+Ans 3: We have implemented
+       "Only allow a noun to enter a lexical chain if it is within a threshold number of words (this should be a parameter) to the closest element of the chain."
+
+	Earlier all the words were getting added in lexical chain.After enhancement only noun within certain range is getting added.
+
+
+ 
